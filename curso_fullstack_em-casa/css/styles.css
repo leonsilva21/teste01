@@ -1,0 +1,106 @@
+/* Estilo geral */
+body {
+    font-family: 'Roboto', sans-serif;
+  /*  margin: 0;
+    padding: 0;*/
+    background-color: #121212; /* Fundo escuro */
+    color: #e0e0e0; /* Texto claro para contraste */
+    line-height: 1.6;
+}
+/* Estilo para alinhar lado a lado */
+
+/* Cabeçalho */
+header {
+    text-align: center;
+    background-color: #1f1e1d; /* Fundo ainda mais escuro no header */
+    color: #ffffff; /* Texto branco */
+    padding: 15px 0;
+}
+
+header img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 3px solid #333333; /* Borda escura para combinar */
+}
+
+header h1 {
+    margin: 5px 0;
+    font-size: 2rem;
+}
+
+header p {
+    margin: 2px 0;
+    font-size: 0.9rem;
+}
+
+/* Seções */
+section {
+    background: #1f1f1f; /* Fundo escuro para as seções */
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    border-radius: 10px;*/
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); /* Sombra mais escura */
+}
+
+section h2 {
+    color: white; /* Destaque com verde no texto */
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+section ul {
+    list-style: none;
+    padding: 0;
+}
+
+section ul li {
+    margin: 10px 0;
+    font-size: 1rem;
+    color: #bfbfbf; /* Texto em tom cinza claro */
+}
+
+/* Destaques */
+strong {
+    color: #fbfffc; /* Verde para destacar palavras importantes */
+}
+
+em {
+    font-style: italic;
+    color: #cccccc; /* Cinza claro para texto em itálico */
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    section {
+        width: 90%;
+        padding: 15px;
+    }
+
+    header h1 {
+        font-size:1rem;
+    }
+
+    section h2 {
+        font-size: 1.5rem;
+    }
+    /* Estilo para alinhar lado a lado */
+.1 .2 {
+    border-bottom: 2px solid  #4caf50;
+    display: inline-block; /* Faz os elementos ficarem lado a lado */
+    margin-right: 20px; /* Espaçamento horizontal entre os itens */
+    font-size: 1rem; /* Ajusta o tamanho da fonte */
+    vertical-align: top; /* Alinha os textos pelo topo */
+   
+
+}
+
+    display: inline-block; /* Faz os elementos ficarem lado a lado */
+    margin-right: 20px; /* Espaçamento horizontal entre os itens */
+    font-size: 1rem; /* Ajusta o tamanho da fonte */
+    vertical-align: top; /* Alinha os textos pelo topo */
+    
+
