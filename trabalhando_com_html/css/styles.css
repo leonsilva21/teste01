@@ -1,0 +1,201 @@
+/* Reset geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Cabeçalho fixo */
+header {
+    background-color: #011b42;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 20px; /* Adiciona espaço entre os itens */
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Seção Início */
+#inicio {
+    background-color: #011b42;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    margin-top: 80px;
+}
+
+#inicio h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px; /* Aumenta espaço abaixo do título */
+}
+
+#inicio p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+#inicio .btn {
+   
+    background-color: white;
+    color: #021a3b;
+    padding: 12px 20px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+a.btn {
+    text-decoration: none;
+}
+
+
+#inicio .btn:hover {
+    background-color: #e0e0e0;
+}
+
+/* Seção Projetos */
+#projetos {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.projetos-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* Espaçamento maior entre os projetos */
+    flex-wrap: wrap;
+}
+
+.projeto-card {
+    
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    text-align: center;
+  
+   
+}
+
+.projeto-card img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  
+}
+
+/* Habilidades */
+#habilidades {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.habilidades-container {
+    display: flex;
+    justify-content: center;
+    gap: 60px; /* Maior espaçamento entre ícones */
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.habilidades-container i {
+    font-size: 45px;
+    color: #0d6efd;
+}
+
+/* Seção Sobre */
+#sobre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px; /* Aumenta espaço entre imagem e texto */
+    padding: 80px 20px;
+    flex-wrap: wrap;
+}
+
+#sobre img {
+    width: 220px;
+    border-radius: 10px;
+}
+
+/* Seção Contato */
+#contato {
+    background-color: #011b42;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+#contato form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px; /* Maior espaçamento entre campos */
+    max-width: 400px;
+    margin: auto;
+}
+
+#contato input,
+#contato textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+}
+
+#contato button {
+    background-color: #064096;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contato button:hover {
+    background-color: #0b5ed7;
+}
+
+/* Rodapé */
+footer {
+    background-color: #011b42;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin-top: 50px; /* Espaço maior antes do rodapé */
+}
+
+.social-icons {
+    margin-top: 15px;
+}
+
+.social-icons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 24px;
+}
+
+.social-icons a:hover {
+    color: #032e6e;
+}
